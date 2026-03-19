@@ -12,6 +12,7 @@ Welcome to my professional security archive.
 * **Rising Star Award** – Excellence in automation.
 * **Pat on the Back** – Superior defect reporting.
 
-### 🛠️ Lab Reports
-* **Vulnerability Assessment** (Nessus)
-* **Penetration Testing** (Metasploit)
+### 🛠️ Offensive Security Labs
+* **Vulnerability Assessment:** Conducted full network scans on Metasploitable targets using **Nessus Essentials**, identifying critical misconfigurations and outdated services.
+* **Metasploit Exploitation:** Successfully executed the `vsftpd_234_backdoor` exploit to gain root shell access on a target Linux machine.
+* **Reconnaissance:** Performed subdomain enumeration and digital footprinting using **Sherlock** and **Subfinder** for targeted OSINT analysis.
