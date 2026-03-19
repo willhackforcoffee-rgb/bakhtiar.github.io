@@ -1,18 +1,30 @@
 ---
-title: BAKHTIAR // CYBER-OPS
 layout: default
+title: BAKHTIAR // CYBER-OPS
 ---
 
+<style>
+  body {
+    background-color: #1b1c1d; /* Dark background */
+    color: #2ecc71; /* Hacker green text */
+    font-family: "Courier New", Courier, monospace;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('profile.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
 # [root@bakhtiar ~]# whoami
+<img src="profile.jpg" width="150" style="border-radius: 50%; border: 2px solid #2ecc71;">
+
 ## Automation Engineer | Cybersecurity Aspirant 🛡️
 
-Welcome to my professional security archive. 
+> **Objective:** Transitioning 3.5 years of expertise in Automation Engineering into a specialized role in Offensive Security and Ethical Hacking.
 
 ### 🏆 Professional Achievements
-* **Rising Star Award** – Excellence in automation.
+* **Rising Star Award** – Excellence in automation framework development.
 * **Pat on the Back** – Superior defect reporting.
 
-### 🛠️ Offensive Security Labs
-* **Vulnerability Assessment:** Conducted full network scans on Metasploitable targets using **Nessus Essentials**, identifying critical misconfigurations and outdated services.
-* **Metasploit Exploitation:** Successfully executed the `vsftpd_234_backdoor` exploit to gain root shell access on a target Linux machine.
-* **Reconnaissance:** Performed subdomain enumeration and digital footprinting using **Sherlock** and **Subfinder** for targeted OSINT analysis.
+### 🛠️ Cybersecurity Lab Reports
+* **[Vulnerability Assessment]** - Network-wide scans using **Nessus Essentials**.
+* **[Penetration Testing]** - Exploitation of `vsftpd 2.3.4` on Metasploitable 2.
