@@ -111,11 +111,6 @@ title: BAKHTIAR // CYBER-OPS
 <hr>
 
 ### 🛠️ Cybersecurity Lab Reports (Proof of Work)
-<p>
-  <a href="reports/metasploitable-compromise.md" style="color: #00ff00; text-decoration: underline;">
-    [View Full Technical Exploitation Report]
-  </a>
-</p>
 
 <div class="lab-card">
   **[Vulnerability Assessment]** Network-wide audits utilizing **Nessus Essentials**. Identified, mapped, and prioritized critical vulnerabilities within Metasploitable environments.
@@ -128,6 +123,21 @@ title: BAKHTIAR // CYBER-OPS
 <div class="lab-card">
   **[OSINT & Recon]** Automated subdomain discovery via **Subfinder** and cross-platform identity mapping using **Sherlock** to build target footprints.
   <br><a href="recon_report.txt" class="link-btn" style="margin-top:12px;">VIEW FULL RECON REPORT</a>
+</div>
+
+<div class="lab-card">
+  <h3 style="color: #00ff00; margin-bottom: 8px;">◈ Metasploitable 2: Full System Compromise</h3>
+  <p style="font-size: 0.9em; line-height: 1.4;">
+    Successfully exploited <strong>vsftpd 2.3.4</strong> backdoor to gain root access. 
+    Performed credential harvesting via <strong>John the Ripper</strong> and established 
+    persistent access via a custom <strong>sudoers</strong> backdoor.
+  </p>
+  
+  <div style="margin-top: 15px; display: flex; gap: 10px;">
+    <a href="reports/metasploitable-compromise.md" class="link-btn">VIEW EXPLOITATION REPORT</a>
+    
+    <a href="reports/recon-report.md" class="link-btn" style="background: transparent; border: 1px solid #00ff00;">RECON DATA</a>
+  </div>
 </div>
 
 <hr>
