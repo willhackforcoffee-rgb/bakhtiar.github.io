@@ -5,13 +5,23 @@ title: BAKHTIAR // CYBER-OPS
 
 <style>
   body {
-    background-color: #1b1c1d; /* Dark background */
-    color: #2ecc71; /* Hacker green text */
-    font-family: "Courier New", Courier, monospace;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('background1.jpg');
+    background-color: #0d1117;
+    color: #2ecc71; 
+    /* Force Monospace Terminal Font */
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('background1.jpg');
     background-size: cover;
     background-attachment: fixed;
   }
+  .highlight { color: #f1c40f; } /* Gold for awards */
+  .link-btn {
+    border: 1px solid #2ecc71;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #2ecc71;
+    font-size: 0.8em;
+  }
+  .link-btn:hover { background: #2ecc71; color: #000; }
 </style>
 
 # [root@bakhtiar ~]# whoami
@@ -19,12 +29,26 @@ title: BAKHTIAR // CYBER-OPS
 
 ## Automation Engineer | Cybersecurity Aspirant 🛡️
 
-> **Objective:** Transitioning 3.5 years of expertise in Automation Engineering into a specialized role in Offensive Security and Ethical Hacking.
+> **Experience:** 3.5 Years in Software Testing & Automation
+> **Focus:** Offensive Security | Ethical Hacking | OSINT
 
-### 🏆 Professional Achievements
-* **Rising Star Award** – Excellence in automation framework development.
-* **Pat on the Back** – Superior defect reporting.
+---
+
+### 🏆 Professional Recognition
+* <span class="highlight">Rising Star Award</span> – Excellence in Automation Frameworks.
+* <span class="highlight">Pat on the Back</span> – Superior Defect Reporting & Manual-to-Auto conversion.
+
+---
 
 ### 🛠️ Cybersecurity Lab Reports
-* **[Vulnerability Assessment]** - Network-wide scans using **Nessus Essentials**.
-* **[Penetration Testing]** - Exploitation of `vsftpd 2.3.4` on Metasploitable 2.
+* **[Vulnerability Assessment]** - Network scans using **Nessus Essentials** on Metasploitable targets.
+* **[Penetration Testing]** - Successful exploitation of `vsftpd 2.3.4` backdoor.
+* **[OSINT & Recon]** - Subdomain enumeration via **Subfinder** and identity mapping with **Sherlock**.
+  <br><a href="recon_report.txt" class="link-btn">VIEW SAMPLE RECON REPORT</a>
+
+---
+
+### 🎓 Education & Certifications
+* **MBA (Finance)** – Integrating business logic with technical security.
+* **B.Tech (CS-IT)** – Core foundation in Information Technology.
+* **Ethical Hacking & Cyber Security** – [In Progress] Institute-led training.
