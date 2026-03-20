@@ -16,9 +16,9 @@ title: BAKHTIAR // CYBER-OPS
   }
 /* 1. Use light gold text, not a background highlight */
   .award-text {
-    color: #f1c40f; 
+    color: #0000FF; 
     font-weight: bold;
-    text-shadow: 0 0 5px #f1c40f; /* Adds a subtle gold glow */
+    text-shadow: 0 0 5px #0000FF; /* Adds a subtle gold glow */
   }
   /* 2. New CSS to make the title part green so it fits the theme */
   .highlight { background-color: transparent !important; color: #2ecc71 !important; }  .link-btn {
