@@ -111,6 +111,11 @@ title: BAKHTIAR // CYBER-OPS
 <hr>
 
 ### 🛠️ Cybersecurity Lab Reports (Proof of Work)
+<p>
+  <a href="reports/metasploitable-compromise.md" style="color: #00ff00; text-decoration: underline;">
+    [View Full Technical Exploitation Report]
+  </a>
+</p>
 
 <div class="lab-card">
   **[Vulnerability Assessment]** Network-wide audits utilizing **Nessus Essentials**. Identified, mapped, and prioritized critical vulnerabilities within Metasploitable environments.
