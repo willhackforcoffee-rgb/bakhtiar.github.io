@@ -13,8 +13,14 @@ title: BAKHTIAR // CYBER-OPS
     background-size: cover;
     background-attachment: fixed;
   }
-  .highlight { color: #f1c40f; } /* Gold for awards */
-  .link-btn {
+/* 1. Use light gold text, not a background highlight */
+  .award-text {
+    color: #f1c40f; 
+    font-weight: bold;
+    text-shadow: 0 0 5px #f1c40f; /* Adds a subtle gold glow */
+  }
+  /* 2. New CSS to make the title part green so it fits the theme */
+  .highlight { background-color: transparent !important; color: #2ecc71 !important; }  .link-btn {
     border: 1px solid #2ecc71;
     padding: 5px 10px;
     text-decoration: none;
@@ -54,5 +60,5 @@ title: BAKHTIAR // CYBER-OPS
 * **MBA (Finance)** – Integrating business logic with technical security.
 * **B.Tech (CS-IT)** – Core foundation in Information Technology.
 * **Ethical Hacking & Cyber Security** – [In Progress] Institute-led training.
-* * **CPSAT** – Certified Professional Selenium Automation Test Engineer.
+* **CPSAT** – Certified Professional Selenium Automation Test Engineer.
 * **Oxford Achievers** – High-level English proficiency & communication certification.
