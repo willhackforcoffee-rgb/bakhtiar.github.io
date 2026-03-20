@@ -4,6 +4,7 @@ title: BAKHTIAR // CYBER-OPS
 ---
 
 <style>
+  
   body {
     background-color: #0d1117;
     color: #2ecc71; 
@@ -32,6 +33,13 @@ title: BAKHTIAR // CYBER-OPS
 
 # [root@bakhtiar ~]# whoami
 <img src="profile.jpg" width="150" style="border-radius: 50%; border: 2px solid #2ecc71;">
+
+## Automation Engineer | Cybersecurity Aspirant 🛡️
+
+<div style="margin-top: 15px;">
+  <a href="YOUR_LINKEDIN_URL_HERE" class="link-btn" target="_blank">🔗 LINKEDIN</a>
+  <a href="YOUR_INSTAGRAM_URL_HERE" class="link-btn" target="_blank">📸 INSTAGRAM</a>
+</div>
 
 ## Automation Engineer | Cybersecurity Aspirant 🛡️
 
