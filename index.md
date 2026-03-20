@@ -39,9 +39,6 @@ title: BAKHTIAR // CYBER-OPS
 > **Focus:** Offensive Security | Ethical Hacking | OSINT
 
 ---
-
-### 🏆 Professional Recognition
----
 ### 🏆 Professional Recognition
 * <span class="highlight">Rising Star Award</span> – <span class="award-text">Excellence in Automation Frameworks.</span>
 * <span class="highlight">Pat on the Back</span> – <span class="award-text">Superior Defect Reporting.</span>
