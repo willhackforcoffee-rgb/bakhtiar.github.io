@@ -134,7 +134,7 @@ title: BAKHTIAR // CYBER-OPS
   </p>
   
   <div style="margin-top: 15px; display: flex; gap: 10px;">
-    <a href="reports/metasploitable-compromise.md" class="link-btn">VIEW EXPLOITATION REPORT</a>
+    <a href="reports/metasploitable-compromise.html" class="link-btn">VIEW EXPLOITATION REPORT</a>
     
     <a href="reports/recon-report.md" class="link-btn" style="background: transparent; border: 1px solid #00ff00;">RECON DATA</a>
   </div>
