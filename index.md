@@ -35,8 +35,10 @@ title: BAKHTIAR // CYBER-OPS
 ---
 
 ### 🏆 Professional Recognition
-* <span class="highlight">Rising Star Award</span> – Excellence in Automation Frameworks.
-* <span class="highlight">Pat on the Back</span> – Superior Defect Reporting & Manual-to-Auto conversion.
+---
+### 🏆 Professional Recognition
+* <span class="highlight">Rising Star Award</span> – <span class="award-text">Excellence in Automation Frameworks.</span>
+* <span class="highlight">Pat on the Back</span> – <span class="award-text">Superior Defect Reporting.</span>
 
 ---
 
@@ -52,3 +54,5 @@ title: BAKHTIAR // CYBER-OPS
 * **MBA (Finance)** – Integrating business logic with technical security.
 * **B.Tech (CS-IT)** – Core foundation in Information Technology.
 * **Ethical Hacking & Cyber Security** – [In Progress] Institute-led training.
+* * **CPSAT** – Certified Professional Selenium Automation Test Engineer.
+* **Oxford Achievers** – High-level English proficiency & communication certification.
