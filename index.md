@@ -38,7 +38,7 @@ title: BAKHTIAR // CYBER-OPS
 
 <div style="margin-top: 15px;">
   <a href="https://www.linkedin.com/in/shaik-abdul-bakhtiar-b04aa3159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="link-btn" target="_blank">🔗 LINKEDIN</a>
-  <a href="[YOUR_INSTAGRAM_URL_HERE](https://www.linkedin.com/in/shaik-abdul-bakhtiar-b04aa3159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)" class="link-btn" target="_blank">📸 INSTAGRAM</a>
+  <a href="https://www.linkedin.com/in/shaik-abdul-bakhtiar-b04aa3159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="link-btn" target="_blank">📸 INSTAGRAM</a>
 </div>
 
 ## Automation Engineer | Cybersecurity Aspirant 🛡️
