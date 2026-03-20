@@ -3,66 +3,161 @@ layout: default
 title: BAKHTIAR // CYBER-OPS
 ---
 
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 <style>
-  
   body {
     background-color: #0d1117;
     color: #2ecc71; 
-    /* Force Monospace Terminal Font */
     font-family: 'Courier New', Courier, monospace;
-    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('background1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.94), rgba(0,0,0,0.94)), url('background1.jpg');
     background-size: cover;
     background-attachment: fixed;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
   }
-/* 1. Use light gold text, not a background highlight */
-  .award-text {
-    color: #0000FF; 
+
+  /* Interactive Terminal Header */
+  .terminal-header {
+    font-size: 1.4em;
     font-weight: bold;
-    text-shadow: 0 0 5px #0000FF; /* Adds a subtle gold glow */
+    color: #2ecc71;
+    margin-bottom: 20px;
   }
-  /* 2. New CSS to make the title part green so it fits the theme */
-  .highlight { background-color: transparent !important; color: #2ecc71 !important; }  .link-btn {
+  
+  #typed-command {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+  }
+
+  /* Profile Image Styling */
+  .profile-img {
+    border-radius: 8px;
+    border: 2px solid #2ecc71;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  .profile-img:hover {
+    transform: scale(1.02);
+  }
+
+  /* Professional Accents */
+  .award-text {
+    color: #5dade2; /* Professional Sky Blue */
+    font-weight: bold;
+  }
+
+  .highlight { 
+    color: #f1c40f !important; /* Gold for visibility */
+    font-weight: bold;
+  }
+
+  .link-btn {
     border: 1px solid #2ecc71;
-    padding: 5px 10px;
+    padding: 6px 14px;
     text-decoration: none;
     color: #2ecc71;
-    font-size: 0.8em;
+    font-size: 0.85em;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 3px;
   }
-  .link-btn:hover { background: #2ecc71; color: #000; }
+
+  .link-btn:hover { 
+    background: #2ecc71; 
+    color: #0d1117; 
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
+  }
+
+  .lab-card {
+    margin-bottom: 18px;
+    border-left: 3px solid #2ecc71;
+    padding-left: 20px;
+    background: rgba(46, 204, 113, 0.03);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  hr { border: 0; border-top: 1px solid #30363d; margin: 35px 0; }
+
+  /* Blinking Cursor Styling */
+  .typed-cursor {
+    opacity: 1;
+    color: #2ecc71;
+  }
 </style>
 
-# [root@bakhtiar ~]# whoami
-<img src="profile.jpg" width="150" style="border-radius: 50%; border: 2px solid #2ecc71;">
+<div class="terminal-header">
+  [root@bakhtiar ~]# <span id="typed-command"></span>
+</div>
 
-## Automation Engineer | Cybersecurity Aspirant 🛡️
+<img src="profile.jpg" width="140" class="profile-img" alt="Professional Profile">
 
-<div style="margin-top: 15px;">
-  <a href="https://www.linkedin.com/in/shaik-abdul-bakhtiar-b04aa3159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="link-btn" target="_blank">🔗 LINKEDIN</a>
-  <a href="https://www.instagram.com/bakhtiar.io?igsh=dDllanhudGYwcmR4&utm_source=qr" class="link-btn" target="_blank">📸 INSTAGRAM</a></div>
+<h2>Automation Engineer | Offensive Security Researcher 🛡️</h2>
 
-## Automation Engineer | Cybersecurity Aspirant 🛡️
+<div style="margin-bottom: 25px;">
+  <a href="https://www.linkedin.com/in/shaik-abdul-bakhtiar-b04aa3159" class="link-btn" target="_blank">🔗 LINKEDIN</a>
+  <a href="https://www.instagram.com/bakhtiar.io" class="link-btn" target="_blank">📸 INSTAGRAM</a>
+</div>
 
-> **Experience:** 3.5 Years in Software Testing & Automation
-> **Focus:** Offensive Security | Ethical Hacking | OSINT
+<blockquote>
+  <strong>Experience:</strong> 3.5 Years in Software Quality Assurance & Automation Frameworks<br>
+  <strong>Focus Areas:</strong> Vulnerability Assessment | Pentesting | OSINT Architecture
+</blockquote>
 
----
-### 🏆 Professional Recognition
-* <span class="highlight">Rising Star Award</span> – <span class="award-text">Excellence in Automation Frameworks.</span>
-* <span class="highlight">Pat on the Back</span> – <span class="award-text">Superior Defect Reporting.</span>
+<hr>
 
----
+### 🛠️ Cybersecurity Lab Reports (Proof of Work)
 
-### 🛠️ Cybersecurity Lab Reports
-* **[Vulnerability Assessment]** - Network scans using **Nessus Essentials** on Metasploitable targets.
-* **[Penetration Testing]** - Successful exploitation of `vsftpd 2.3.4` backdoor.
-* **[OSINT & Recon]** - Subdomain enumeration via **Subfinder** and identity mapping with **Sherlock**.
-  <br><a href="recon_report.txt" class="link-btn">VIEW SAMPLE RECON REPORT</a>
+<div class="lab-card">
+  **[Vulnerability Assessment]** Network-wide audits utilizing **Nessus Essentials**. Identified, mapped, and prioritized critical vulnerabilities within Metasploitable environments.
+</div>
 
----
+<div class="lab-card">
+  **[Penetration Testing]** Successfully exploited `vsftpd 2.3.4` backdoor to demonstrate root-level access and post-exploitation persistence in a controlled lab.
+</div>
+
+<div class="lab-card">
+  **[OSINT & Recon]** Automated subdomain discovery via **Subfinder** and cross-platform identity mapping using **Sherlock** to build target footprints.
+  <br><a href="recon_report.txt" class="link-btn" style="margin-top:12px;">VIEW FULL RECON REPORT</a>
+</div>
+
+<hr>
+
+### 🏆 Professional Impact & Awards
+* <span class="highlight">Rising Star Award</span> – Engineered scalable **Selenium & TestNG frameworks** that reduced regression testing overhead by 40%.
+* <span class="highlight">Pat on the Back</span> – Recognized for **Superior Defect Reporting** and identifying high-severity security leaks during UAT.
+
+<hr>
 
 ### 🎓 Education & Certifications
-* **MBA (Finance)** – Integrating business logic with technical security.
-* **B.Tech (CS-IT)** – Core foundation in Information Technology.
-* **Ethical Hacking & Cyber Security** – [In Progress] Institute-led training.
+* **MBA (Finance) & B.Tech (CS-IT)** – Specialized in bridging technical vulnerabilities with business risk management.
+* **Ethical Hacking & Cyber Security** – [Active] Advanced training in offensive tactics and network defense.
 * **CPSAT** – Certified Professional Selenium Automation Test Engineer.
-* **Oxford Achievers** – High-level English proficiency & communication certification.
+* **Oxford Achievers** – High-level Professional Communication & English proficiency.
+
+<hr>
+
+<p style="text-align: center; font-size: 0.75em; color: #8b949e; margin-top: 50px;">
+  &copy; 2026 Bakhtiar. Generated via Secure Terminal Session.
+</p>
+
+<script>
+  var typed = new Typed('#typed-command', {
+    strings: [
+      'whoami',
+      'cat core_competencies.log',
+      'nmap -sV labs.bakhtiar.io',
+      'grep "Automation" skills.txt',
+      './start_exploit_session.sh'
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 2000,
+    loop: true,
+    cursorChar: '_'
+  });
+</script>
