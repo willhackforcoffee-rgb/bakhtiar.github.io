@@ -8,7 +8,7 @@ title: BAKHTIAR // CYBER-OPS
     background-color: #1b1c1d; /* Dark background */
     color: #2ecc71; /* Hacker green text */
     font-family: "Courier New", Courier, monospace;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('profile.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('background1.jpg');
     background-size: cover;
     background-attachment: fixed;
   }
