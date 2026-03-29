@@ -156,6 +156,8 @@ title: BAKHTIAR // CYBER-OPS
 
 <hr>
 
+### 📄 [Download My Full Resume (PDF)](./Shaik_Abdul_Bakhtiar_Automation_Security_Resume.pdf)
+
 <p style="text-align: center; font-size: 0.75em; color: #8b949e; margin-top: 50px;">
   &copy; 2026 Bakhtiar. Generated via Secure Terminal Session.
 </p>
